@@ -7,7 +7,6 @@ export default function Home() {
                 <title>Next JS ChatGPT Starter</title>
             </Head>
             <h1>Welcome to the Next JS &amp; ChatGPT Starter</h1>
-            <button onClick={() => methodDoesNotExist()}>Break the world</button>
         </div>
     );
 }
