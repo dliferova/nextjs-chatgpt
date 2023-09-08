@@ -21,7 +21,7 @@ export default function Home() {
           {!!user && (
             <Link
               href={"/api/auth/logout"}
-              className="rounded-md bg-emerald-500 px-4 py-2 text-white hover:bg-emerald-600"
+              className="btn"
             >
               Logout
             </Link>
@@ -29,13 +29,13 @@ export default function Home() {
           {!user && (
             <>
               <Link
-                className="rounded-md bg-emerald-500 px-4 py-2 text-white hover:bg-emerald-600"
+                className="btn"
                 href={"/api/auth/login"}
               >
                 Login
               </Link>
               <Link
-                className="rounded-md bg-emerald-500 px-4 py-2 text-white hover:bg-emerald-600"
+                className="btn"
                 href={"/api/auth/signup"}
               >
                 Sign up
